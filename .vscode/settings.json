@@ -1,0 +1,13 @@
+{
+    "telemetry.enableCrashReporter": false,
+    "telemetry.enableTelemetry": false,
+    "atlascode.jira.explorer.enabled": false,
+    "atlascode.jira.explorer.showOpenIssues": false,
+    "atlascode.jira.explorer.showAssignedIssues": false,
+    "atlascode.jira.hover.enabled": false,
+    "atlascode.jira.statusbar.showLogin": false,
+    "atlascode.jira.statusbar.showProduct": false,
+    "atlascode.jira.statusbar.enabled": false,
+    "atlascode.jira.statusbar.showUser": false,
+    "atlascode.jira.todoIssues.enabled": false
+}
