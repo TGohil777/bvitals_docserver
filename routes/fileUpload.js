@@ -24,7 +24,7 @@ authRouter.route('/uploadlogo').post(async (req,res) =>{
         await fs.writeFileSync(`images/${filename}`,bufferData, 'buffer');
         res.status(200).json({
             message : 'Logo has been uploaded!',
-            url : `http://localhost:{process.env.PORT}/images/${filename}`
+            url : `http://localhost:${process.env.PORT}/images/${filename}`
         })
     }catch(err){
         errors = err
